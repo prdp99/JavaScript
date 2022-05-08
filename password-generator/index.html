@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h2>Password Generator</h2>
+      </div>
+
+      <div class="pass-display"></div>
+      <div class="form-cotainer">
+        <form class="form">
+          <label for="password-length">Password Length</label>
+          <div class="range-container">
+            <input
+              min="1"
+              max="50"
+              value="10"
+              id="range"
+              type="range"
+              class="range"
+            />
+            <span class="range-number">
+              <input
+                min="1"
+                max="50"
+                value="10"
+                id="range-number"
+                type="number"
+              />
+            </span>
+          </div>
+
+          <label for="Uppercase">Uppercase</label>
+          <input class="checkbox" id="uppercase" type="checkbox" />
+
+          <label for="Numbers">Numbers</label>
+          <input class="checkbox" id="number" type="checkbox" />
+
+          <label for="Symbols">Symbols</label>
+          <input class="checkbox" id="symbol" type="checkbox" />
+
+          <button type="submit" id="btn" class="btn">Generate</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
