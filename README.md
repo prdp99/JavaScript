@@ -7,3 +7,5 @@ JavaScript Projects
 2.Google Map Clone
 
 3.Password Generator
+
+4.Quiz App
