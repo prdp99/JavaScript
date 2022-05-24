@@ -15,3 +15,5 @@ JavaScript Projects
 6.Drag and Drop
 
 7.Speed Typing
+
+8.Snake Game
