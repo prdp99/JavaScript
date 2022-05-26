@@ -17,3 +17,5 @@ JavaScript Projects
 7.Speed Typing
 
 8.Snake Game
+
+9.Tic-Tac-Toe
