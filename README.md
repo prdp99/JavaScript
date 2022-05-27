@@ -19,3 +19,5 @@ JavaScript Projects
 8.Snake Game
 
 9.Tic-Tac-Toe
+
+10.Thanos Snap Effect
