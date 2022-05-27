@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#img {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://llandscapes-10674.kxcdn.com/wp-content/uploads/2019/07/lighting.jpg");
+  background-position: center;
+  background-size: cover;
+}
